@@ -1,6 +1,6 @@
 #main script to run for each analysis
 import csv
-with open(r"C:\Users\reema\Desktop\PythonStuff\election_data_0907.csv",encoding='utf-8') as csvfile:
+with open(r"C:\Users\User\Desktop\python_challenge\PyPoll\election_data_0907.csv",encoding='utf-8') as csvfile:
   reader = csv.DictReader(csvfile)
   Candidates_considered = []
   Votes = []
